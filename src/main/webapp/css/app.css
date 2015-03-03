@@ -1,0 +1,36 @@
+.feed-container {
+    background-color: #eee;
+    border-radius: 20px;
+    margin: 2em;
+    padding: 1em;
+}
+
+.feed-headline {
+    color:black;
+}
+
+.feed-footer {
+    margin-top: 30px;
+    overflow: hidden;
+}
+.feed-footer-div {
+    width: 49%;
+    float: left;
+}
+
+.group-container {
+    float: left;
+    width: 20%;
+    padding: 1em;
+}
+
+.group {
+    float: left;
+    background-color: gray;
+    margin: 0.5em;
+}
+
+img {
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
