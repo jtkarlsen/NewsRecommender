@@ -10,13 +10,6 @@
 
   <dependencies>
 
-      <dependency>
-          <groupId>junit</groupId>
-          <artifactId>junit</artifactId>
-          <version>4.8.2</version>
-          <scope>test</scope>
-      </dependency>
-
     <dependency>
         <groupId>com.sun.jersey</groupId>
         <artifactId>jersey-servlet</artifactId>
@@ -28,7 +21,6 @@
         <artifactId>jersey-json</artifactId>
         <version>${jersey.version}</version>
     </dependency>
-
 
     <dependency>
         <groupId>com.sun.jersey</groupId>
@@ -68,8 +60,8 @@
                   <url>http://129.242.219.56/manager/text</url>
                   <server>TomcatServer</server>
                   <path>/</path>
-                  <username>jka055</username>
-                  <password>nid11n</password>
+                  <username>*</username>
+                  <password>*</password>
               </configuration>
           </plugin>
       </plugins>

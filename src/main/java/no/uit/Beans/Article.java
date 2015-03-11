@@ -6,7 +6,7 @@ package no.uit.Beans;
 public class Article {
 
     String id;
-    float score;
+    String score;
     String title;
     String description;
     String link;
@@ -18,7 +18,7 @@ public class Article {
 
     }
 
-    public Article(String id, float score, String title, String description, String link, String author, String guid, String pubDate) {
+    public Article(String id, String score, String title, String description, String link, String author, String guid, String pubDate) {
         this.id = id;
         this.score = score;
         this.title = title;
@@ -37,12 +37,12 @@ public class Article {
         this.id = id;
     }
 
-    public float getScore() {
+    public String getScore() {
         return score;
     }
 
-    public void setScore(float score) {
-        score = score;
+    public void setScore(String score) {
+        this.score = score;
     }
 
     public String getTitle() {

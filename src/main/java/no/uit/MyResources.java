@@ -89,7 +89,7 @@ public class MyResources {
         for (SearchHit hit : response.getHits().getHits()) {
             Article article = new Article();
             article.setId(hit.getId());
-            article.setScore(hit.getScore());
+            article.setScore(Float.toString(hit.getScore()));
 
             Map<String,Object> result = hit.getSource();
 
